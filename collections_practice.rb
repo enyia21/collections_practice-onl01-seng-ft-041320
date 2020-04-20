@@ -29,7 +29,7 @@ def kesha_maker(array)
   kesha_array = array.each do |word|
     test_array = []
     test_array = word.chars
-    test_array[2] = "$"
+    test_array[2] = "f"
     kesha_array << test_array.join
   end
   return kesha_array
