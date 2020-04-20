@@ -32,3 +32,5 @@ def kesha_maker(array)
     test_array[2] = '$'
     kesha_array << test_array.join
   end
+  return kesha_array
+end  
