@@ -37,6 +37,8 @@ end
 
 def find_a(array)
    array.select do |element|
-     element.match?(/a/)
+     test_array = []
+     test_array = element.chars
+     test_array[0] == "a"
    end
 end
