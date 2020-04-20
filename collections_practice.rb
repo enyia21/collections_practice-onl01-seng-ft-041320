@@ -37,6 +37,6 @@ end
 
 def find_a(array)
    array.select do |element|
-     element.match?(/a.../)
+     element.match?(/a/)
    end
 end
